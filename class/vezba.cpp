@@ -20,9 +20,9 @@ public:
     {
         num = n;
     }
-    void setPrime(bool p)
+    void setPrime()
     {
-        prime = p;
+        prime = is_prime(num);
     }
     int getNum()
     {
